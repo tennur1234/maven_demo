@@ -23,7 +23,7 @@ public class NewTest {
     public void test(){
     WebElement search_box = driver.findElement(By.name("q"));
     search_box.sendKeys("porsche"+Keys.ENTER);
-    Assert.assertTrue(driver.getTitle().contains("porshe"));
+    Assert.assertTrue(driver.getTitle().contains("porsche"));
     }
     
     @AfterMethod
